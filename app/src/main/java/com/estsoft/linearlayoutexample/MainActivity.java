@@ -3,6 +3,7 @@ package com.estsoft.linearlayoutexample;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,30 +23,37 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButton3Clicked(View v) {
-       setContentView(R.layout.gravity);
+
+        setContentView(R.layout.gravity);
     }
 
     public void onButton4Clicked(View v) {
+
         setContentView(R.layout.weight);
     }
 
     public void onButton5Clicked(View v) {
+
         setContentView(R.layout.baseline);
     }
 
     public void onButton6Clicked(View v) {
+
         setContentView(R.layout.gravitytext01);
     }
 
     public void onButton7Clicked(View v) {
+
         setContentView(R.layout.gravitytext02);
     }
 
     public void onButton8Clicked(View v) {
+
         setContentView(R.layout.gravitytext03);
     }
 
     public void onButton9Clicked(View v) {
+
         Intent intent = new Intent(getApplicationContext(), SampleLayoutCodeActivity.class);
         startActivity(intent);
     }
